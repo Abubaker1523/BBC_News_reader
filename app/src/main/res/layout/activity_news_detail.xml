@@ -1,0 +1,63 @@
+<!-- activity_news_detail.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
+    <!-- Date -->
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTextView"
+        android:text="Date: "
+        android:padding="8dp" />
+
+    <!-- Description -->
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dateTextView"
+        android:text="Description"
+        android:padding="8dp" />
+
+    <!-- Link -->
+    <TextView
+        android:id="@+id/linkTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descriptionTextView"
+        android:text="Link"
+        android:textColor="@color/blueColor"
+    android:padding="8dp" />
+
+    <!-- Add to Favorites Button -->
+    <Button
+        android:id="@+id/addToFavoritesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linkTextView"
+        android:text="Add to Favorites"
+        android:visibility="visible" />
+
+    <!-- Remove from Favorites Button -->
+    <Button
+        android:id="@+id/removeFromFavoritesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linkTextView"
+        android:text="Remove from Favorites"
+        android:visibility="gone" />
+</RelativeLayout>

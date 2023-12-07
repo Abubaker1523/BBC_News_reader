@@ -1,0 +1,12 @@
+<!-- strings.xml (French) -->
+<resources>
+    <string name="app_name">Lecteur de nouvelles BBC</string>
+    <string name="navigation_drawer_open">Ouvrir</string>
+    <string name="navigation_drawer_close">Fermer</string>
+
+    <string name="choose_language_summary">Choisissez votre langue préférée</string>
+
+    <string name="language_settings_title">Paramètres de langue</string>
+    <string name="language_preference_title">Choisissez votre langue préférée</string>
+    <string name="language_preference_summary">Sélectionnez la langue souhaitée</string>
+</resources>

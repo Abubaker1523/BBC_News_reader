@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_favorites"
+            android:title="Favorites" />
+        <!-- Add more items as needed -->
+        <!-- Other menu items -->
+        <item
+            android:id="@+id/nav_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_help"
+            android:title="Help" />
+
+    </group>
+</menu>
